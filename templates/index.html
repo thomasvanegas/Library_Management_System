@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - Sistema Gestión de Biblioteca</title>
+    <!-- IMPORTACIÓN DEL CSS -->
+    <link rel="stylesheet" href="../static/css/index.css">
+    <link rel="stylesheet" href="../static/css/buttons.css">
+    <link rel="stylesheet" href="../static/css/navbar.css">
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="../static/imgs/favicon.png">
+</head>
+
+<body>
+
+    <!-- ---  ---  BARRA DE NAVEGACIÓN ---  ---  ---  -->
+    <nav class="nav_bar" id="navbar">
+        <div class="nav_img">
+            <a href="#inicio">
+                <img src="../static/imgs/library_logo.png"
+                    alt="Logo Principal Library Management System">
+            </a>
+        </div>
+        <div class="nav_menu">
+            <a href="#inicio">Inicio</a>
+            <a href="#catalogo" class="nav_bar_item">Catálogo</a>
+            <a href="#iniciarSesion" class="nav_bar_item">Iniciar Sesión</a>
+            <a href="#registrarse" class="nav_bar_item">Registrarse</a>
+            <button id="dark-mode">Modo Oscuro</button>
+        </div>
+    </nav>
+
+    <section id="catalogo">
+        <div class="container">
+            <h2>Catálogo</h2>
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Buscar libro...">
+                <button id="search-btn">Buscar Libro</button>
+            </div>
+
+
+
+
+            <!-- COLECCIÓN DE TODOS LOS LIBROS -->
+            <div class="grid">
+
+                <div class="book">
+                    <img src="../static/imgs/books/1984.png" alt="libro 1984">
+                    <h3>1984</h3>
+                    <p>George Orwell</p>
+                    <p>ISBN: 9788423342250</p>
+                    <!-- Botones Prestar y Reservar -->
+    <div class="book-buttons">
+        <button class="btn-prestar">Prestar</button>
+        <button class="btn-reservar">Reservar</button>
+    </div>
+                </div>
+
+                <div class="book">
+                    <img src="../static/imgs/books/animales_dioses.png" alt="Libro de Animales a Dioses">
+                    <h3>Sapiens: De animales a dioses</h3>
+                    <p>Yuval Noah Harari</p>
+                    <p>ISBN: 9780062316097</p>
+                    <!-- Botones Prestar y Reservar -->
+    <div class="book-buttons">
+        <button class="btn-prestar">Prestar</button>
+        <button class="btn-reservar">Reservar</button>
+    </div>
+                </div>
+
+                <div class="book">
+                    <img src="../static/imgs/books/cien_anos_soledad.png" alt="Libro cien años de soledad">
+                    <h3>Cien años de soledad</h3>
+                    <p>Gabriel García Márquez</p>
+                    <p>ISBN: 9788437604947</p>
+                    <!-- Botones Prestar y Reservar -->
+    <div class="book-buttons">
+        <button class="btn-prestar">Prestar</button>
+        <button class="btn-reservar">Reservar</button>
+    </div>
+                </div>
+
+                <div class="book">
+                    <img src="../static/imgs/books/don_quijote_la_mancha.png" alt="Libro don quijote de la mancha">
+                    <h3>Don quijote de la mancha</h3>
+                    <p>Miguel de Cervantes</p>
+                    <p>ISBN: 9788426143807</p>
+                    <!-- Botones Prestar y Reservar -->
+    <div class="book-buttons">
+        <button class="btn-prestar">Prestar</button>
+        <button class="btn-reservar">Reservar</button>
+    </div>
+                </div>
+
+                <div class="book">
+                    <img src="../static/imgs/books/el_principito.png" alt="Libro El principito">
+                    <h3>El principito</h3>
+                    <p>Antoine de Saint-Exupéry</p>
+                    <p>ISBN: 9780156012195</p>
+                    <!-- Botones Prestar y Reservar -->
+    <div class="book-buttons">
+        <button class="btn-prestar">Prestar</button>
+        <button class="btn-reservar">Reservar</button>
+    </div>
+                </div>
+
+                <div class="book">
+                    <img src="../static/imgs/books/harry_potter_piedra_filosofal.png" alt="Libro Harry Potter y la piedra filosofal">
+                    <h3>Harry Potter y la piedra filosofal</h3>
+                    <p>J.K. Rowling</p>
+                    <p>ISBN: 9788478884455</p>
+                    <!-- Botones Prestar y Reservar -->
+    <div class="book-buttons">
+        <button class="btn-prestar">Prestar</button>
+        <button class="btn-reservar">Reservar</button>
+    </div>
+                </div>
+
+                <div class="book">
+                    <img src="../static/imgs/books/iliada.png" alt="Libro La iliada">
+                    <h3>La ilíada</h3>
+                    <p>Homero</p>
+                    <p>ISBN: 9780140275360</p>
+                    <!-- Botones Prestar y Reservar -->
+    <div class="book-buttons">
+        <button class="btn-prestar">Prestar</button>
+        <button class="btn-reservar">Reservar</button>
+    </div>
+                </div>
+
+                <div class="book">
+                    <img src="../static/imgs/books/matar_ruisenor.png" alt="Matar a un ruiseñor">
+                    <h3>Matar a un ruiseñor</h3>
+                    <p>Harper Lee</p>
+                    <p>ISBN: 9780061120084</p>
+                    <!-- Botones Prestar y Reservar -->
+    <div class="book-buttons">
+        <button class="btn-prestar">Prestar</button>
+        <button class="btn-reservar">Reservar</button>
+    </div>
+                </div>
+
+                <div class="book">
+                    <img src="../static/imgs/books/orgullo_prejuicio.png" alt="Libro Orgullo y Prejuicio">
+                    <h3>Orgullo y Prejuicio</h3>
+                    <p>Jane Austen</p>
+                    <p>ISBN: 9788491052537</p>
+                    <!-- Botones Prestar y Reservar -->
+    <div class="book-buttons">
+        <button class="btn-prestar">Prestar</button>
+        <button class="btn-reservar">Reservar</button>
+    </div>
+                </div>
+
+                <div class="book">
+                    <img src="../static/imgs/books/pensar_rapido_pensar_despacio.png" alt="Libro Pensar rápido, pensar despacio">
+                    <h3>Pensar rápido, pensar despacio</h3>
+                    <p>Daniel Kahneman</p>
+                    <p>ISBN: 9780374533557</p>
+                    <!-- Botones Prestar y Reservar -->
+    <div class="book-buttons">
+        <button class="btn-prestar">Prestar</button>
+        <button class="btn-reservar">Reservar</button>
+    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>
+                Todos los derechos reservados <a target="_blank" href="https://github.com/thomasvanegas">Thomas Camilo Vanegas Acevedo</a>
+            </p>
+        </div>
+    </footer>
+    
+    <script src="../static/js/index.js"></script>
+</body>
+</html>

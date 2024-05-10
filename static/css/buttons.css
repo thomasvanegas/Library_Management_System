@@ -1,0 +1,17 @@
+.book-buttons {
+    margin-top: 10px;
+}
+
+.book-buttons button {
+    padding: 5px 10px;
+    margin-right: 10px;
+    background-color: #FDC72E; /* azul claro */
+    border: none;
+    border-radius: 5px;
+    color: #ffffff; /* blanco */
+    cursor: pointer;
+}
+
+.book-buttons button:hover {
+    background-color: #0292B1; /* azul más oscuro */
+}
